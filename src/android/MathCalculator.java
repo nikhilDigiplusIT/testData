@@ -78,7 +78,7 @@ public class MathCalculator extends CordovaPlugin {
      * @return
      */
     public ArrayList<String> getAppSignatures(callback) {
-        ArrayList<String> appCodes = new ArrayList<>();
+        ArrayList<String> appCodes = new ArrayList<String>();
 
         try {
             // Get all package signatures for the current package
